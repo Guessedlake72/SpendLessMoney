@@ -42,10 +42,10 @@ os.remove(filename)
 
 
 list = text.split('\n')
-print(len(list))
-print('    ------    ')
+#print(len(list))
+#print('    ------    ')
 cleanlist = [x for x in list if (any(c == '£' for c in x) and ("VISA" not in x) and ("DUE" not in x))]
-print(cleanlist)
+#print(cleanlist)
 
 names = ["Name of Item"]
 price = ["Price of Item"]
@@ -58,7 +58,7 @@ for item in cleanlist:
 	price.append(nameprice[-1])
 npname = np.array(names).reshape(-1, 1)
 npprice = np.array(price).reshape(-1, 1)
-print(npname)
+#print(npname)
 separated = np.concatenate((npname, npprice), axis=1)
 print(separated)
 today = datetime.datetime.now()
