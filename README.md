@@ -18,7 +18,7 @@ receipt.jpg is a picture of the receipt
 ### Terminal Screenshot
 ![terminal](/images/terminal.png)
 ### Csv File
-![output](/images/terminal.png)
+![output](/images/output.png)
 
 ## Other Info
 Some example code when learning to use pytesseract is still in the code, maybe i'll clean that up later.
